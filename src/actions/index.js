@@ -12,7 +12,8 @@ export const addToDo = (data) => {
 
 export const deleteToDo = (id) => {
      return {
-        type:"DELETE_TODO"
+        type:"DELETE_TODO",
+        id
      }
 }
 

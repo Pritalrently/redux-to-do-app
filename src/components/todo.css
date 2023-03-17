@@ -80,8 +80,10 @@ input:focus {
 
 .todo-btn {
   width: 5rem;
+  height:10px;
   display: flex;
   justify-content: space-around;
+  margin-top: -20px;
 }
 
 .fa {
@@ -108,11 +110,12 @@ input:focus {
 .showItems {
   margin-top: 3rem;
   text-align: center;
+  
 }
 
 .eachItem {
   background: #fff;
-  padding: 1.2rem 1rem;
+  padding: 1.2rem 2rem;
   border-radius: 0.5rem;
   margin-bottom: 0.7rem;
   margin-left: 1rem;
@@ -167,7 +170,7 @@ input:focus {
 }
 
 .eachItem:hover h3 {
-  color: rgb(85, 41, 220);
+  color: rgb(232, 227, 247);
 }
 
 .btn {

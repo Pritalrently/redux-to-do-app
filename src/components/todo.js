@@ -41,7 +41,7 @@ const Todo = () => {
 
                                 return (
                                     <div className='eachItems' key={elem.id}>
-                                        <h3>{elem.data}</h3>
+                                        <h3 style={{color: "white", fontSize: "20px", paddingTop:"20px"}}>{elem.data}</h3>
                                         <div className='todo-btn'>
                                         <i className="far fa-trash-alt add-btn" title="Delete Items" onClick={() => dispatch(deleteToDo(elem.id), setInputData(''))}></i>
                                     </div>
